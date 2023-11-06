@@ -10,6 +10,7 @@
 body {
     background: #080800;
     color: #fff;
+    
 }
 
 #header {
@@ -92,3 +93,53 @@ nav ul li a:hover::after{
 .header-text h1 span{
     color: #ff2c2c;
 }
+
+/* ---------------PROJECTS PAGE------------------ */
+
+.project-containers {
+    
+    width: 200px;
+    height: 200px;
+    position: relative;
+
+    justify-content: space-between;
+    display: inline-block;
+    
+    margin: 15px;
+    text-align: center;
+    padding: 70px;
+    
+    
+
+    
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.2px);
+    -webkit-backdrop-filter: blur(3.2px);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+
+#bodycon {
+    width: 600px;
+    top: 130px;
+    position: absolute;
+}
+
+#p1 h1{
+    text-align: center;
+}
+
+.project-containers:hover{
+    opacity: 0.7;   
+}
+
+
+#p1:hover span{
+    display: none;
+}
+
+#p1:hover:before{
+    content: 'Music Bot';
+}
+
