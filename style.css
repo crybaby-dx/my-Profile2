@@ -149,7 +149,13 @@ nav ul li a:hover::after{
     position : absolute;
     justify-content: center;
 }
+
     
+
+.bf:hover {
+    opacity : 0%;
+}
+
 
 #p1:hover .bf{
     opacity : 0%;
