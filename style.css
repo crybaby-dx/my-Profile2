@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 * {
     margin: 0;
@@ -117,6 +118,7 @@ nav ul li a:hover::after{
 
 #bodycon {
     
+    font-family: 'Shadows Into Light', cursive ;
     margin-top: 60px;
     width: 600px;
     height: 600px;
@@ -158,4 +160,66 @@ nav ul li a:hover::after{
 
 .project-containers:hover .af{
     opacity: 100%;
+}
+
+
+/* ------------------- Social Page ---------------------- */
+
+
+#social-container {
+    
+
+    top: 70px;
+    right: 40px;
+    width: 500px;
+    height: 600px;
+    margin-top: 50px;
+    margin: auto;
+    padding-top: 30px;
+
+    
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 40px;
+    
+
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.2px);
+    -webkit-backdrop-filter: blur(3.2px);
+    border: 1px solid rgba(255, 255, 255, 0.22);
+
+}
+
+
+.logos {
+    left: 25px;
+    position: absolute;
+    display: inline-block ;
+}
+
+
+.slinks {
+
+    color: #fff;
+    text-decoration: none;
+
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+
+    position:relative;
+    top: 20px;
+    margin-top: 10px;
+    padding-top: 20px;
+
+    width: 350px;
+    height: 60px;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+
 }
