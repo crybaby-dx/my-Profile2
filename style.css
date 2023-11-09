@@ -97,13 +97,13 @@ nav ul li a:hover::after{
     
     width: 200px;
     height: 200px;
-    position: relative;
+    position:relative;
     
     justify-content: center;
-    display: flex;
-    
+    display:flex;
+
     margin: 15px;
-    padding: 65px;
+    padding:60px;
     text-align: center;
     
     
@@ -117,14 +117,14 @@ nav ul li a:hover::after{
 
 #bodycon {
     
-    border: 20px;
-    border-color: #080800;
     margin-top: 60px;
-    max-width: 700px;
-    height: 400px;
-    top: 130px;
-    display: inline-block;
-
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
     
 }
 
@@ -136,27 +136,26 @@ nav ul li a:hover::after{
    padding: 50px 0px;
 }
 
-.project-containers:hover{
-    opacity: 0.7;
-}
+
 
 .bf {
     display: flex;
     position : absolute;
+    justify-content: center;
 }
 .af {
+    opacity: 0%;
     display: flex;
     position : absolute;
     justify-content: center;
 }
 
     
-
-.bf:hover {
-    opacity : 0%;
+.project-containers:hover .bf{
+    opacity: 0%;
 }
 
 
-#p1:hover .bf{
-    opacity : 0%;
+.project-containers:hover .af{
+    opacity: 100%;
 }
